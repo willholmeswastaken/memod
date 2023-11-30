@@ -15,6 +15,7 @@ export const env = createEnv({
 			.default("development"),
 		QSTASH_URL: z.string(),
 		QSTASH_TOKEN: z.string(),
+		RESEND_API_KEY: z.string(),
 	},
 
 	/**
@@ -40,6 +41,7 @@ export const env = createEnv({
 		DATABASE_AUTH_TOKEN: process.env.DATABASE_AUTH_TOKEN,
 		QSTASH_URL: process.env.QSTASH_URL,
 		QSTASH_TOKEN: process.env.QSTASH_TOKEN,
+		RESEND_API_KEY: process.env.RESEND_API_KEY,
 		// NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
 	},
 	/**
